@@ -1,0 +1,48 @@
+name = Spark Learning Theme
+description = Subtheme built with Bootstrap.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[off_canvas_region]    = 'Off Canvas'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/spark.css
+stylesheets[all][] = css/spark-elements.css
+stylesheets[all][] = css/font-awesome-4.7/css/font-awesome.min.css
+stylesheets[all][] = css/animate.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/sparklearning.js
+scripts[] = js/jquery.matchHeight.js
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Slick Slider
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/slick/slick.min.js
+stylesheets[all][] = js/slick/slick.css
+;stylesheets[all][] = js/slick/slick-theme.css

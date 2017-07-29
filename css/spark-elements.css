@@ -1,0 +1,188 @@
+/**
+  * Views Exposed Filters
+  */
+
+.views-exposed-form .views-exposed-widget {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.views-exposed-form label {
+  font-weight: normal;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.form-control {
+  padding: 10px;
+  height: auto;
+  background: #e6e6e6;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.form-autocomplete .input-group-addon {
+  background-color: #e6e6e6;
+  border: 0px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 0px;
+  border-left: 3px solid #0099FF;
+}
+
+.views-exposed-widgets-buttons>.views-exposed-widget {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  float: left;
+}
+
+.views-exposed-widget>.btn {
+  margin: 10px 10px 0 0;
+}
+
+
+/** hide help/description field **/
+
+.form-item-uid .help-block {
+  display: none;
+}
+
+
+/**
+  * Views Grid - Style 1
+  * Grid with lots of info below.
+  * Used in Videos
+  */
+
+.grid-item {
+  margin-bottom: 30px;
+}
+
+.grid-item .grid-media {
+  position: relative;
+}
+
+.grid-item .grid-media .grid-media-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  padding: 20px 10px 10px 10px;
+  background: transparent;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+.grid-item .grid-media .grid-media-overlay>.views-field {
+  display: inline-block;
+}
+
+.grid-item .grid-info {
+  background: #fff;
+  padding: 25px 15px;
+  color: #777;
+}
+
+h3.grid-title {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.grid-item .grid-info>.views-field {
+  margin-top: 10px;
+}
+
+.grid-item .grid-info .views-field-field-category {
+  font-size: 12px;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #f4f4f6;
+}
+
+
+/**
+  * Views Grid - Style 2 (overlayed)
+  * Grid with very little info
+  * Used in categories
+  */
+
+.grid-overlayed {
+  position: relative;
+}
+
+.grid-overlayed .grid-media img {
+  filter: brightness(0.55);
+  -webkit-filter: brightness(0.55);
+}
+
+.grid-overlayed .grid-media .grid-media-overlay {
+  top: 35%;
+  bottom: unset;
+  left: 0;
+  padding: 0;
+  background: transparent;
+  text-align: center;
+  font-size: 14px;
+}
+
+.grid-overlayed .grid-media .grid-media-overlay .views-field-name {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grid-overlayed .grid-media .grid-media-overlay .views-field-name a {
+  color: #fff;
+}
+
+
+/**
+  * Views Grid - Style 3
+  * Grouped Grid
+  * Used in tags/hashtags
+  */
+
+.grouped-grid .grid-title {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.grouped-grid .grid-title a {
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.views-field-view .views-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.view-hashtags-list-of-nodes-to-display-per-term ul>li {
+  margin-bottom: 10px;
+}
+
+
+/**
+  * View Empty
+  */
+
+.view-empty {
+  padding: 5%;
+  background: #e6e6e6;
+  color: #777;
+  text-align: center;
+}
+
+.grouped-grid .view-empty {
+  padding: 0px;
+  background: unset;
+  text-align: left;
+}
